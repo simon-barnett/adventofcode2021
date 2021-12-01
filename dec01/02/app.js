@@ -1,13 +1,14 @@
-var fs = require("fs")
+let fs = require("fs")
+
+let tally = 0
+let previousNumber = 0
+let array = []
+let valueOfEachThreeArray = []
+let puzzleArrayCurrentValue = 0
+let firstTime = true
+let sum = 0
 
 const name = "Simon"
-var tally = 0
-var previousNumber = 0
-var array
-var valueOfEachThreeArray = []
-var puzzleArrayCurrentValue = 0
-var firstTime = true
-var sum = 0
 
 startTimeStamp()
 readPuzzleInput()

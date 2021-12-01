@@ -1,9 +1,10 @@
-var fs = require("fs")
+let fs = require("fs")
+
+let tally = 0
+let previousNumber = 0
+let array
 
 const name = "Simon"
-var tally = 0
-var previousNumber = 0
-var array
 
 startTimeStamp()
 readPuzzleInput()
